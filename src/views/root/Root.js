@@ -1,14 +1,15 @@
 import React from 'react';
-
+import CommingSoonView from '../CommingSoonView/CommingSoonView';
 
 class Root extends React.Component {
-  render() {
-    return (
-      <div>
-        <h1>hello world</h1>
-      </div>
-    );
-  }
-}
+    render() {
+        return (
+            <div>
+              <CommingSoonView />
+
+            </div>
+        )
+    }
+};
 
 export default Root;
