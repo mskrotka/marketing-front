@@ -1,6 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Root from './views/root/Root';
+import RootCommingSoon from './views/rootCommingSoon/rootCommingSoon';
 import './index.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import Root from './views/root/root'
 
-ReactDOM.render(<Root />, document.getElementById('root'))
+ReactDOM.render((
+    <BrowserRouter>
+        <Switch>
+        <Route exact path="/" component={RootCommingSoon}/>
+
+        </Switch>
+        <Route path="/root" component={Root}/>
+    </BrowserRouter>), document.getElementById('root'))
