@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import RootCommingSoon from './views/rootCommingSoon/rootCommingSoon';
 import './index.css';
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
-import Root from './views/root/root'
+import Root from './Views/root/root'
 
-ReactDOM.render((
-    <BrowserRouter>
-        <Switch>
-        <Route exact path="/" component={RootCommingSoon}/>
+import "./assets/animate.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./assets/main.css";
+import "./assets/responsive.css";
+import "bootstrap/dist/js/bootstrap.min.js";
+import "popper.js";
 
-        </Switch>
-        <Route path="/root" component={Root}/>
-    </BrowserRouter>), document.getElementById('root'))
+ReactDOM.render(<Root />, document.getElementById('root'));
