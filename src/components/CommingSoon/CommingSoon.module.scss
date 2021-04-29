@@ -30,7 +30,8 @@
     width: 3vmin;
     height: 3vmin;
     color: rgba(17, 35, 53, 0.6);
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
 
     @media (max-width: 480px) {
       width: 8vmin;
@@ -40,6 +41,12 @@
   .Icon:hover {
     color: rgba(188, 5, 63);
   }
+}
+
+.border{
+  border-left: 1px dashed rgba(17, 35, 53, 0.6);
+  padding: 5px;
+  margin:0 0 0 10px;
 }
 
 .text {
