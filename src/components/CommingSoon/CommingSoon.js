@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './CommingSoon.module.scss';
 import logoImage from '../../assets/images/logo_michal_swiderski.png';
-import { FaLinkedin, FaFacebookSquare, FaMailBulk, FaGoogleDrive } from 'react-icons/fa'
+import { FaLinkedin, FaFacebookSquare, FaMailBulk, FaGoogleDrive } from 'react-icons/fa';
 
 const CommingSoon = () => (
     <div className={styles.wrapper}>

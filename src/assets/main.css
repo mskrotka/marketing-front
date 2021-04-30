@@ -22990,8 +22990,8 @@ a .h_head:hover {
 }
 
 .new_footer_top .f_social_icon a:hover {
-  background: #5e2ced;
-  border-color: #5e2ced;
+  background: #c40436;
+  border-color: #a30437;
 }
 
 .new_footer_top .f_social_icon a + a {
@@ -25214,3 +25214,8 @@ a .h_head:hover {
 /*====================================================*/
 
 /*# sourceMappingURL=style.css.map */
+
+
+.icon_footer {
+  font-size: 1.4em;
+}

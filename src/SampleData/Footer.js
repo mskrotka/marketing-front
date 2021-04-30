@@ -9,7 +9,7 @@ const FooterData = {
     AboutWidget: [
         {
           id: 1,
-          title: "Download",
+          title: "Obszary działań",
           menuItems: [
               {
                 id: 1,
@@ -45,7 +45,7 @@ const FooterData = {
       },
       {
             id: 2,
-            title: "Help",
+            title: "Pomoc",
             menuItems: [
                 {
                   id: 1,
@@ -83,7 +83,7 @@ const FooterData = {
     termsCondition: [
       {
           id: 1,
-          title: "Team Solutions",
+          title: "Social Media",
           menuItems: [
             {
               id: 1,
@@ -111,27 +111,17 @@ const FooterData = {
     SocialLinks: [
         {
             id: 1,
-            title: "Team Solutions",
+            title: "Social Media",
             menuItems: [
                 {
                   id: 1,
-                  url: '#',
-                  icon: 'ti-facebook',
+                  url: 'https://www.linkedin.com/in/michal-swiderski/',
+                  icon: 'LinkedIn',
                 },
                 {
                   id: 2,
-                  url: '#',
-                  icon: 'ti-twitter-alt',
-                },
-                {
-                  id: 3,
-                  url: '#',
-                  icon: 'ti-vimeo-alt',
-                },
-                {
-                  id: 4,
-                  url: '#',
-                  icon: 'ti-pinterest',
+                  url: 'https://www.facebook.com/michal.michal.happy/',
+                  icon: 'Facebook',
                 }
             ]
         }
@@ -140,7 +130,7 @@ const FooterData = {
       {
         id: 1,
         url: 'https://www.facebook.com/',
-        icon: 'ti-facebook',
+        icon: 'Facebook',
       },
       {
         id: 2,
