@@ -1,17 +1,16 @@
 import React from 'react';
 import {Link, NavLink} from 'react-router-dom';
 import Sticky from 'react-stickynode';
-import Logo from '../../assets/images/logo_michal_swiderski.png';
+import Logo from "../../components/Logo/Logo"
 
-const Header = ({mClass, cClass, slogo, nClass, hbtnClass}) => (
+const Header = ({mClass, cClass, nClass, hbtnClass}) => (
     <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
     <header className="header_area">
     <nav className={`navbar navbar-expand-lg menu_one ${mClass}`}>
         <div className={`container ${cClass}`}>
-            <Link className={`navbar-brand ${slogo}`} to="/">
-                <img src={Logo} alt="logo"/>
-                <img src={Logo} alt="logo"/>
-            </Link>
+
+            <Logo cLogo="main_logo_ms"/>
+
             <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="menu_toggle">
                     <span className="hamburger">
@@ -29,7 +28,7 @@ const Header = ({mClass, cClass, slogo, nClass, hbtnClass}) => (
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className={`navbar-nav menu ml-auto ${nClass}`}>
                     <li className="nav-item dropdown submenu mega_menu mega_menu_two">
-                        <Link to="./" className="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <Link to="/team" className="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Zespół
                         </Link>
                     </li>

@@ -6,7 +6,7 @@ import Intro from '../../components/Intro/FrontView';
 
 const FrontView = () => (
     <div className="body_wrapper">
-    <Header cClass="custom_container p0" hbtnClass="new_btn" slogo="main_logo_ms"/>
+    <Header cClass="custom_container p0" hbtnClass="new_btn"/>
     <Intro/>
 
     <h1>Strona główna</h1>
