@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Root from './Views/root/root'
 
+import "./assets/themify-icon/themify-icons.css";
 import "./assets/animate.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/main.css";
