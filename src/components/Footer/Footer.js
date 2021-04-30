@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Reveal from 'react-reveal/Reveal'
 import FooterData from '../../SampleData/Footer';
-import { FaLinkedinIn, FaFacebookF } from 'react-icons/fa';
+
 
 const Footer = () => (
     <footer className="new_footer_area bg_color">
@@ -53,10 +53,6 @@ const Footer = () => (
                                     )
                                 })
                             }
-
-
-
-
                             {
                                 FooterData.SocialLinks.map(widget=>{
                                     return(
@@ -66,14 +62,10 @@ const Footer = () => (
                                                 <h3 className="f-title f_600 t_color f_size_18">{widget.title}</h3>
                                                 <div className="f_social_icon">
                                                     {
-                                                        widget.menuItems.map(item => {
-                                                                if (item.icon === "Facebook") {
-                                                                    return <a href={item.url} target="_blank"><FaFacebookF key={item.id} className="icon_footer"/></a>
-                                                                } else if (item.icon === "LinkedIn") {
-                                                                    return <a href={item.url} target="_blank"><FaLinkedinIn key={item.id} className="icon_footer"/></a>
-                                                                }
-                                                                return(null)
-
+                                                        widget.menuItems.map(item =>{
+                                                            return(
+                                                                <a href={item.url} rel="noreferrer" target="blank"><i className={item.icon}></i></a>
+                                                            )
                                                         })
                                                     }
                                                 </div>
@@ -83,7 +75,6 @@ const Footer = () => (
                                     )
                                 })
                             }
-
                 </div>
 
             </div>

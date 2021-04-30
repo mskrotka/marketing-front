@@ -15,19 +15,19 @@ const CommingSoon = () => (
             <p>Dobry czas na reorganizację.</p>
         </div>
         <div className={styles.social}>
-            <a href="https://www.linkedin.com/in/michal-swiderski/" target="_blank">
+            <a href="https://www.linkedin.com/in/michal-swiderski/" target="_blank" rel="noreferrer">
                 <FaLinkedin className={styles.Icon}/>
             </a>
-            <a href="https://www.facebook.com/michal.michal.happy/" target="_blank">
+            <a href="https://www.facebook.com/michal.michal.happy/" target="_blank" rel="noreferrer">
                 <FaFacebookSquare className={styles.Icon}/>
             </a>
 
             <span className={styles.border}></span>
 
-            <a href="http://poczta.michal-swiderski.pl" target="_blank">
+            <a href="http://poczta.michal-swiderski.pl" target="_blank" rel="noreferrer">
                 <FaMailBulk className={styles.Icon}/>
             </a>
-            <a href="http://dysk.michal-swiderski.pl" target="_blank">
+            <a href="http://dysk.michal-swiderski.pl" target="_blank" rel="noreferrer">
                 <FaGoogleDrive className={styles.Icon}/>
             </a>
 

@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 import CommingSoon from '../../components/CommingSoon/CommingSoon'
 
 const CommingSoonView = () => (

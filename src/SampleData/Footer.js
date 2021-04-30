@@ -83,7 +83,7 @@ const FooterData = {
     termsCondition: [
       {
           id: 1,
-          title: "Social Media",
+          title: "Team Solutions",
           menuItems: [
             {
               id: 1,
@@ -116,12 +116,12 @@ const FooterData = {
                 {
                   id: 1,
                   url: 'https://www.linkedin.com/in/michal-swiderski/',
-                  icon: 'LinkedIn',
+                  icon: 'ti-linkedin',
                 },
                 {
                   id: 2,
                   url: 'https://www.facebook.com/michal.michal.happy/',
-                  icon: 'Facebook',
+                  icon: 'ti-facebook',
                 }
             ]
         }
@@ -130,7 +130,7 @@ const FooterData = {
       {
         id: 1,
         url: 'https://www.facebook.com/',
-        icon: 'Facebook',
+        icon: 'ti-facebook',
       },
       {
         id: 2,
