@@ -435,8 +435,8 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   text-align: center;
 }
 .btn_get.new_btn{
-  background: #5e2ced;
-  border-color: #5e2ced;
+  background: #c40436;
+  border-color: #a30437;
   color: #fff;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -444,10 +444,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 
 .btn_get:hover {
   color: #fff;
-  background: #5e2ced;
-  border-color: #5e2ced;
+  background: #fff;
+  border-color: #cfcccd;
   -webkit-box-shadow: none;
   box-shadow: none;
+  color: #c40436;
 }
 .btn_get.new_btn:hover{
   box-shadow: 0px 20px 24px 0px rgba(0, 11, 40, 0.1);
@@ -2317,15 +2318,16 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   box-shadow: none;
 }
 .navbar_fixed .header_area .menu_one .btn_get.new_btn{
-  color: #6754e2;
-  border: 2px solid #ccc5fa;
+  color: #c40436;
+  border: 2px solid #cfcccd;
   background: transparent;
 }
 
+
 .navbar_fixed .header_area .menu_one .btn_get.new_btn:hover{
   color: #fff;
-  background: #5e2ced;
-  border-color: #5e2ced;
+  background: #c40436;
+  border-color: #a30437;
 }
 
 .navbar_fixed .header_area .sticky_logo img {
