@@ -1,15 +1,16 @@
 import React from 'react';
 import {Link, NavLink} from 'react-router-dom';
 import Sticky from 'react-stickynode';
+import Logo from '../../assets/images/logo_michal_swiderski.png';
 
-const Header = (mClass, cClass, slogo, nClass, hbtnClass) => (
+const Header = ({mClass, cClass, slogo, nClass, hbtnClass}) => (
     <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
     <header className="header_area">
     <nav className={`navbar navbar-expand-lg menu_one ${mClass}`}>
         <div className={`container ${cClass}`}>
             <Link className={`navbar-brand ${slogo}`} to="/">
-                <img src={require("../../assets/images/logo_michal_swiderski.png")} alt=""/>
-                <img src={require("../../assets/images/logo_michal_swiderski.png")} alt="logo"/>
+                <img src={Logo} alt="logo"/>
+                <img src={Logo} alt="logo"/>
             </Link>
             <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="menu_toggle">

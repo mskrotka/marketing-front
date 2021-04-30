@@ -934,6 +934,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 .sticky_logo img{
   display: block;
 }
+
+.main_logo_ms img{
+  max-width: 50px;
+}
+
 .sticky_logo img + img{
   display: none;
 }
@@ -22972,7 +22977,7 @@ a .h_head:hover {
 }
 
 .new_footer_top .f_widget.about-widget .f_list li a:hover {
-  color: #5e2ced;
+  color: #c40436;
 }
 
 .new_footer_top .f_social_icon a {
