@@ -442,8 +442,13 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   box-shadow: none;
 }
 
+.btn_get.new_btn.revers{
+  color: #c40436;
+  background: #fff;
+  border-color: #cfcccd;
+}
+
 .btn_get:hover {
-  color: #fff;
   background: #fff;
   border-color: #cfcccd;
   -webkit-box-shadow: none;
@@ -967,6 +972,19 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   position: relative;
   cursor: pointer;
 }
+
+.menu > .nav-item > .nav-link.active {
+  color: #c40436;
+}
+
+.menu.w_menu > .nav-item > .nav-link.active {
+  color: #fff;
+}
+
+.navbar_fixed .header_area .w_menu .nav-item .nav-link.active {
+  color: #c40436;
+}
+
 
 .menu > .nav-item > .nav-link:before {
   content: "";
@@ -1716,18 +1734,6 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   }
 }
 
-.menu_four .btn_get {
-  border-color: #fff;
-  padding: 0px 30px;
-  background: #fff;
-  min-width: 120px;
-  text-align: center;
-}
-
-.menu_four .btn_get:hover {
-  background: #5e2ced;
-  border-color: #5e2ced;
-}
 
 .menu_four .btn_get_radious {
   background: transparent;
@@ -2342,8 +2348,12 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: #051441;
 }
 
+.navbar_fixed .header_area .w_menu .nav-item .nav-link:hover {
+  color: #c40436;
+}
+
 .navbar_fixed .header_area .w_menu .nav-item .nav-link:before {
-  background: #051441;
+  background: #c40436;
 }
 
 .navbar_fixed .header_area .menu_poss .w_menu .nav-item .nav-link:hover {
@@ -2379,18 +2389,10 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   color: #fff;
 }
 
-.menu_four .btn_get {
-  border: 2px solid #fff;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
 .navbar_fixed .menu_four .btn_get {
   border-color: #ccc5fa;
 }
-.menu_four .btn_get:hover {
-  background: #5e2ced;
-  border-color: #5e2ced;
-}
+
 .navbar_fixed .header_area .menu_four .btn_get:hover {
   border-color: #6754e2;
 }
@@ -2408,7 +2410,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .navbar_fixed .header_area .menu_four .menu_toggle .hamburger span,.navbar_fixed .header_area .menu_four .menu_toggle .hamburger-cross span {
-  background: #6754e2;
+  background: #a30437;
 }
 
 .navbar_fixed .header_area .nav_right_btn .login_btn {
@@ -3702,7 +3704,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 }
 
 .payment_banner_area .shape.two {
-  background-image: -moz-linear-gradient(-75deg, #7121ff 0%, #21d4fd 100%);
+  background-image: -moz-linear-gradient(-75deg, #a30437 0%, #d87a9c 100%);
   background-image: -webkit-linear-gradient(-75deg, #7121ff 0%, #21d4fd 100%);
   background-image: -ms-linear-gradient(-75deg, #7121ff 0%, #21d4fd 100%);
   background-image: linear-gradient(-75deg, #7121ff 0%, #21d4fd 100%);
@@ -4586,10 +4588,11 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
 /*====================================================*/
 /*================= Start breadcrumb_area css =================*/
 .breadcrumb_area {
-  background-image: -moz-linear-gradient(180deg, #5e2ced 0%, #a485fd 100%);
-  background-image: -webkit-linear-gradient(180deg, #5e2ced 0%, #a485fd 100%);
-  background-image: -ms-linear-gradient(180deg, #5e2ced 0%, #a485fd 100%);
-  background-image:  linear-gradient(180deg, #5e2ced 0%, #a485fd 100%);
+  background: rgb(163,4,55);
+  background: -moz-linear-gradient(337deg, rgba(163,4,55,1) 40%, rgba(204,17,51,1) 78%, rgba(204,17,51,1) 100%);
+  background: -webkit-linear-gradient(337deg, rgba(163,4,55,1) 40%, rgba(204,17,51,1) 78%, rgba(204,17,51,1) 100%);
+  background: linear-gradient(337deg, rgba(163,4,55,1) 40%, rgba(204,17,51,1) 78%, rgba(204,17,51,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a30437",endColorstr="#cc1133",GradientType=1);
   position: relative;
   z-index: 1;
   padding: 235px 0px 125px;

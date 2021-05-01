@@ -12,4 +12,6 @@ import "./assets/responsive.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "popper.js";
 
+
+
 ReactDOM.render(<Root />, document.getElementById('root'));

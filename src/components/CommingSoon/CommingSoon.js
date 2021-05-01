@@ -10,7 +10,7 @@ import Logo from "../../components/Logo/Logo"
 const CommingSoon = () => (
     <div className={styles.wrapper}>
         <div className={styles.logo}>
-        <Logo/>
+        <Logo logoType="Dark"/>
         </div>
         <div className={styles.text}>
             <h2>Strona w budowie</h2>
