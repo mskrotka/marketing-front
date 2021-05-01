@@ -1,14 +1,16 @@
 import React from 'react';
-import styles from './CommingSoon.module.scss';
-import logoImage from '../../assets/images/logo_michal_swiderski.png';
+
+import styles from "./CommingSoon.module.scss"
 import { FaLinkedin, FaFacebookSquare, FaMailBulk, FaGoogleDrive } from 'react-icons/fa';
+
+import Logo from "../../components/Logo/Logo"
+
+
 
 const CommingSoon = () => (
     <div className={styles.wrapper}>
         <div className={styles.logo}>
-            <a href="/">
-                <img alt="Michał Swiderski logo" src={logoImage} />
-            </a>
+        <Logo logoType="Dark"/>
         </div>
         <div className={styles.text}>
             <h2>Strona w budowie</h2>
