@@ -10,7 +10,7 @@ const BlogView = () => {
     const [posts, setPosts] = useState([]);
 
     useEffect(() => {
-        fetch(`http://34.245.221.57/api_v1/articles`)
+        fetch(`172.31.14.138/api_v1/articles/`)
             .then((res) => res.json())
             .then((res) => setPosts(res))
     }, [])
